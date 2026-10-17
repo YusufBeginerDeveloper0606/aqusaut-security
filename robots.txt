@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yusufbeginerdeveloper0606.github.io/sitemap.xml
