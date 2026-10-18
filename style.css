@@ -65,3 +65,34 @@
 .map-open-link:hover{background:#e8c981;text-decoration:none!important}
 .map-open-link span{font-size:20px}
 @media(max-width:760px){.map-section{padding:54px 16px}.map-addresses{grid-template-columns:1fr;gap:18px}.map-frame-wrap{height:280px}.map-card-copy{padding:22px 20px 16px}.map-address-card h3{font-size:21px}.map-open-link{padding:16px 20px}}
+
+/* АКСАУЫТ SECURITY — independent navy / white / blue redesign */
+:root{--gold:#2687e8;--blue:#1677d2;--dark:#0b1723;--max:1240px}
+body{font-family:Inter,Arial,sans-serif;background:#f4f7fa;color:#132235}
+.site-header{background:#fff;border-bottom:1px solid #e5ebf2;box-shadow:0 3px 20px #0b17230b}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;min-width:200px}
+.brand img{width:58px;height:58px;object-fit:contain;border-radius:50%}
+.brand-wordmark{display:flex;flex-direction:column;color:#12263a;font-size:18px;font-weight:900;letter-spacing:.4px;line-height:1.05;white-space:nowrap}
+.brand-wordmark b{font-size:11px;letter-spacing:4px;color:#267fd2;margin-top:5px}
+.nav a{color:#1b2b3e;font-weight:650}.nav a:hover{color:#1677d2}.nav .nav-cta{background:#1677d2;color:white;border-radius:8px;padding:14px 20px}
+.hero{position:relative;min-height:590px;background:linear-gradient(90deg,rgba(5,16,27,.94) 0%,rgba(7,24,40,.82) 45%,rgba(7,24,40,.12) 100%),url('assets/service-objects.jpg') center 40%/cover no-repeat;color:white}
+.hero-overlay{background:linear-gradient(0deg,#0718277a,transparent 45%)}
+.hero-content{padding-top:100px;padding-bottom:70px;position:relative;z-index:1}
+.eyebrow{color:#4da5f5;font-weight:800;letter-spacing:1.8px}
+.hero h1{max-width:760px;font-size:clamp(40px,5vw,66px);line-height:1.08;letter-spacing:-1.6px;text-transform:uppercase}
+.hero-accent{color:#54adff}.hero-copy{max-width:590px;font-size:19px;line-height:1.7;color:#e1e9f1}
+.button{border-radius:7px;font-weight:750;transition:transform .2s,background .2s}.button:hover{transform:translateY(-2px)}
+.button-gold,.button-blue{background:#1677d2;color:#fff;border:1px solid #1677d2}.button-gold:hover,.button-blue:hover{background:#0c62b2}
+.hero-badges span{background:#0c2238ad;border:1px solid #6bb5f655;border-radius:7px;padding:11px 14px;color:#eaf5ff}
+.section{padding:86px 0}.section-heading h2,.about-copy h2{color:#10243a;letter-spacing:-.7px}.section-heading>p:last-child{color:#63758a}
+.services-section{background:#f4f7fa}.services-grid{gap:20px}.service-card{border:1px solid #e2e9f0;border-radius:12px;overflow:hidden;box-shadow:0 10px 28px #12263a0b;background:#fff;transition:transform .2s,box-shadow .2s}.service-card:hover{transform:translateY(-4px);box-shadow:0 18px 34px #12263a16}.service-card>img{height:220px;filter:none}.service-body h3{color:#15283c}.service-body{padding:24px}
+.advantages-section,.process-section,.contacts-section{background:#0d1b29;color:#f6f9fc}.section-heading.light h2,.advantages-section h3,.process-section h3,.contacts-section h3{color:#fff}.section-heading.light>p:last-child,.advantages-section p,.process-section p,.contact-top p{color:#c1cfdd}.advantage{background:#13283b;border:1px solid #27425b;border-radius:10px}.adv-icon{color:#55aaff;background:#1b3a57;border-radius:9px}.about-section{background:#fff}.about-grid{align-items:center}.license-wrap{background:#eef4f9;border:1px solid #e0e9f2;border-radius:16px;min-height:330px;display:flex;align-items:center;justify-content:center;gap:20px;padding:30px;flex-wrap:wrap}.license-wrap img{max-width:170px;max-height:170px;object-fit:contain;border-radius:50%}.about-brand-wordmark{font-size:25px;font-weight:900;color:#10243a}.about-brand-wordmark span{display:block;letter-spacing:5px;color:#1677d2;font-size:15px;margin-top:5px}.about-brand-wordmark p{font-size:13px;font-weight:500;color:#5b6f83}.check-list li::marker{color:#1677d2}.process-list article>span{background:#1677d2;color:#fff;box-shadow:0 0 0 6px #1677d21c}.partners-section{background:#f4f7fa}.partner-card{background:white;border:1px solid #e1e9f1;border-radius:10px}.partner-mark{background:#e7f2fc;color:#1677d2;border-radius:12px}
+.contact-phone{color:#68b7ff}.text-whatsapp{color:#39d98a}.contact-form-wrap{border:1px solid #29445c;border-radius:12px}.guard-visual{background:linear-gradient(0deg,#071827b0,#07182720),url('assets/service-posts.jpg') center/cover}.contact-form-wrap input,.contact-form-wrap select{border:1px solid #d8e1eb;border-radius:7px}.footer{background:#081521;color:#d9e4ee}.footer-main p,.footer-bottom{color:#b9c8d6}.footer-bottom{border-color:#23384b}.footer-brand img{width:90px;height:90px;object-fit:contain;border-radius:50%}
+.map-section{background:#edf3f8!important;color:#12263a!important;padding:76px 24px!important}.map-section-heading h2{color:#10243a!important;text-transform:none!important}.map-section-heading>p:last-child{color:#60748a!important}.map-address-card{background:#fff!important;color:#132235!important;border:1px solid #dce6ef!important;border-radius:13px!important;box-shadow:0 12px 28px #10243a0c!important}.map-number{color:#1677d2!important}.map-address-card h3{color:#132235!important}.map-address-card p{color:#5e7083!important}.map-frame-wrap{height:300px;background:#e5edf4}.map-address-card iframe{pointer-events:auto;touch-action:auto}.map-open-link{background:#1677d2!important;color:#fff!important}.map-open-link:hover{background:#0c62b2!important}
+.documents-grid{gap:18px}.document-card{border:1px solid #dce6ef;border-radius:10px;box-shadow:0 10px 25px #12263a08}.document-icon{background:#e6f2ff;color:#1677d2;border-radius:8px}.document-card summary{color:#1677d2}.quick-contact-toggle,.quick-contact-call{background:#1677d2}.quick-contact-toggle[aria-expanded=true]{background:#fff;color:#123}.back-to-top{background:#10243a}
+@media(max-width:1000px){.nav{background:#fff}.nav a{color:#132235}.hero{min-height:550px}.hero-content{padding-top:80px}}
+@media(max-width:680px){.brand img{width:48px;height:48px}.brand-wordmark{font-size:15px}.brand-wordmark b{font-size:9px;letter-spacing:3px}.hero{min-height:570px;background-position:58% center}.hero-content{padding-top:65px}.hero h1{font-size:clamp(34px,9vw,46px);letter-spacing:-.8px}.hero-copy{font-size:16px}.hero-badges{display:flex;flex-wrap:wrap}.hero-badges span{font-size:11px}.section{padding:60px 0}.license-wrap{min-height:240px;padding:20px}.about-brand-wordmark{font-size:21px}.map-section{padding:50px 14px!important}.map-frame-wrap{height:260px}.footer-brand img{width:75px;height:75px}}
+
+/* Updated photography for the Aksauyt Security redesign */
+.hero, .hero-section { background-image: linear-gradient(90deg, rgba(4,16,28,.94) 0%, rgba(4,16,28,.72) 43%, rgba(4,16,28,.10) 100%), url("assets/hero-security.jpg"); background-size: cover; background-position: center; }
+.about-brand-panel img { object-fit: cover; }
